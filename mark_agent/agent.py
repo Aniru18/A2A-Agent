@@ -9,7 +9,7 @@ class MarkAgent():
     SUPPORTED_CONTENT_TYPES = ["text", "text/plain"]
     def __init__(self):
         self.api_key=os.getenv("GOOGLE_API_KEY_MARK")
-        # self.api_key="AIzaSyAPJCr6qyhyiiPiyG5Wd8CK5eNFOs4v6Z4"
+        # self.api_key="api_key"
 
         self.llm=LLM(
                 model="gemini-2.5-flash", 
